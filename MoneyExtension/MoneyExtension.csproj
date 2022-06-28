@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>MoneyExtensions_kody</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Leonardo Ribeiro</Authors>
+    <Company>Leonardo Ribeiro</Company>
+    <PackageDescription>Convert decimal to integer easy</PackageDescription>
+    <Description>Convert decimal to integer easy</Description>
+    <RepositoryUrl>https://github.com/leonardoribeiro94/money-extension</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/leonardoribeiro94/money-extension</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money, int, integer, decimal, converter</PackageTags>
+    <ReleaseNotes>Breaking changes from v1.5, please, visit our GitHub before migrating.</ReleaseNotes>
+    <Title>MoneyExtensions_kody</Title>
+    <Summary>MoneyExtensions_kody its a easy way to convert decimal values to integer.</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
